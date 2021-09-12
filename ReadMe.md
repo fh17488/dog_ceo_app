@@ -2,7 +2,7 @@
 
 Started with Docker compose here: https://github.com/bitnami/bitnami-docker-laravel and modified the Dockerfile to use PHP 8 as per guidance here: https://github.com/bitnami/bitnami-docker-laravel/issues/147
 
-The users table and the parks table was populated manually via SQL CLI and not using a factory. 
+The users table and the parks table were populated manually via SQL CLI and not using a factory. 
 
 ## Notes for part 1:
 The /breed API must be called before any other API. This is because a call to /breed populates the database that the other calls rely on.
